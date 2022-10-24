@@ -5,7 +5,7 @@ const Destination = ({ destination }) => {
   const { img, name, id } = destination;
   return (
     <Link to={`/booking/${id}`}>
-        <div className="max-w-xs p-2 rounded-md shadow-lg bg-gray-600 text-gray-50 relative">
+        <div className="max-w-xs p-2 rounded-md shadow-lg bg-gray-600 hover:border-2 hover:border-orange-400 text-gray-50 relative">
         <img
             src={img}
             alt=""

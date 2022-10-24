@@ -11,10 +11,10 @@ const BookingPlaces = () => {
   return (
     <div className="flex mx-10 items-center">
       <div className="px-8">
-        <h1 className="text-3xl font-bold text-center mb-4 font-sans">{name}</h1>
-        <p className="text-lg font-mono text-amber-700">{desc}</p>
+        <h1 className="text-3xl text-yellow-300 font-bold text-center mb-4 font-sans">{name}</h1>
+        <p className="text-lg font-mono text-white">{desc}</p>
       </div>
-      <div>
+      <div className="mt-10">
         <div className="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
           <div className="px-6 py-4">
             <h2 className="text-3xl font-bold text-center text-gray-700 dark:text-white">

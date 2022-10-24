@@ -8,7 +8,7 @@ const Hotels = () => {
     console.log(hotels)
     
     return (
-        <div className='flex justify-around'>
+        <div className='flex justify-around mt-5'>
             <div>
                 {
                     hotels.map(hotel => <Hotel
